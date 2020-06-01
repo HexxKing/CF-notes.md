@@ -3,7 +3,7 @@
 
 ### Table of Contents:
 - [Questions for Today's Class](class-questions.md)
-- [Introductory HTML and JavaScript](intro_html_js.md)
+- [Introductory HTML and JavaScript](intro-html-js.md)
 - [HTML Text, CSS Introduction, and Basic JavaScript Instructions]()
 - [HTML Lists, CSS Boxes, JS Control Flow]()
 - [HTML Links, CSS Layout, JS Functions]()
