@@ -2,7 +2,8 @@
 > This site is a collection of notes I've taken during my Code 201 Course at Code Fellows. 
 
 ### Table of Contents:
-- [Introductory HTML and JavaScript]()
+- [Questions for Today's Class](class-questions.md)
+- [Introductory HTML and JavaScript](intro_html_js.md)
 - [HTML Text, CSS Introduction, and Basic JavaScript Instructions]()
 - [HTML Lists, CSS Boxes, JS Control Flow]()
 - [HTML Links, CSS Layout, JS Functions]()
