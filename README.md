@@ -5,7 +5,7 @@
 - [Questions for Today's Class](class-questions.md)
 - [Introductory HTML and JavaScript](class-01.md)
 - [HTML Text, CSS Introduction, and Basic JavaScript Instructions](class-02.md)
-- [HTML Lists, CSS Boxes, JS Control Flow]()
+- [HTML Lists, CSS Boxes, JS Control Flow](class-03.md)
 - [HTML Links, CSS Layout, JS Functions]()
 - [HTML Images; CSS Color & Text]()
 - [JS Object Literals; The DOM]()
