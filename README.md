@@ -7,7 +7,7 @@
 - [HTML Text, CSS Introduction, and Basic JavaScript Instructions](class-02.md)
 - [HTML Lists, CSS Boxes, JS Control Flow](class-03.md)
 - [HTML Links, CSS Layout, JS Functions](class-04.md)
-- [HTML Images; CSS Color & Text]()
+- [HTML Images; CSS Color & Text](class-05.md)
 - [JS Object Literals; The DOM]()
 - [HTML Tables; JS Constructor Functions]()
 - [More CSS Layout]()
