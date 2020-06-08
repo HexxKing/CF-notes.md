@@ -8,7 +8,7 @@
 - [HTML Lists, CSS Boxes, JS Control Flow](class-03.md)
 - [HTML Links, CSS Layout, JS Functions](class-04.md)
 - [HTML Images; CSS Color & Text](class-05.md)
-- [JS Object Literals; The DOM]()
+- [JS Object Literals; The DOM](class-06.md)
 - [HTML Tables; JS Constructor Functions]()
 - [More CSS Layout]()
 - [Forms and Events]()
