@@ -1,30 +1,39 @@
-# HTML: Chapter 7: “Forms” (p.144-175)
-- Whenever you want to collect information from visitors you will need a form, which lives inside a ```<form>``` element
-- information from a form is sent in name/value pairs
-- each form control is given a name, and the text the user types in or the values of the options they select are sent to the server. 
-- HTML5 introduces new form elemets which make it easier for visitors to fill in forms
+# Favorite CSS Resources
+- [CSS Tricks](https://css-tricks.com/)
+- [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+- [Useful CSS Links](https://html-css-js.com/css/links/)
+- [CSS Zen Garden](http://www.csszengarden.com/)
 
-# HTML: Chapter 14: “Lists, Tables & Forms” (pp.330-357)
-- in addition to CSS properties, there are several others that are specifically used to control the appearance of lists, tables and forms
-- list markers can be given differet appearaces using te list-style-type and list-style image properties
-- table cells can have different borders and spacing in different browsers, but there ar eproperties you can use to control them and make them more consistent
-- form are easier to use if the form controls are vertically aligned using CSS
-- forms benefit from styles that makes them feel more interactive
+# HTML/CSS book, Ch. 15, “Layout” 
 
+## Building Blocks
+> ***Block-level elements*** start on a new line
+> ***Inline elements*** flow in between surrounding text
+- to sepratet boxes, you can use borders, margins, padding, and background colors 
 
-# JS: Chapter 6: “Events” (pp.243-292)
-- Events are the browser's way of indicating when something has happened
-  - like when a page has finished loading or a button has been clicked on
-- Binding is the process of stating which event you are waiting to happen, and which element you are waiting for that event to happen upon. 
-- When an event occurs on an element, it can trigger a JS function. 
-  - the function changes the web page in some way and it feels interactive because it is responding to the user
-  - ***Event flow*** is the order in which the events fire off. They can flow in two diferent directions:
-    - it matters when your code has event handlers on an element ***and** one of its ancestor or descendant elements. 
-  - ***Event Bubbling*** is when the events starts at the  most specific node and flows outwards to the least specific one. This is the default for most browers. 
-  - ***Event Capturing*** starts at the least specific node and flows inwards to the most specific one
-- Use event delegation to monitor for events that happen on all of the children of an element
-- the most commonly used events are W3C DOM events, although there are others in HTML5 specification as well as browser-specific events. 
-- the ***event object*** tells you where the cursor was positioned when an event was triggered. 
-  - the ***screenX*** and ***screenY*** properties indicate the position of the cursor within the entire screen on your monitor measuring from the top left corner of the screen, rather than the browser.
-  - the ***pageX*** and ***pageY*** properties indicate the position of the cursor within the entire page. 
-  - the ***clientX*** and ***clientY*** properties indicate the position of the cursor within the browser's viewport 
+## Containing Elements
+- ***containing element*** or ***parent element*** is the direct parent of a box nested inside of it.
+  - its common to group a number of elements together inside a block-level element.
+
+## Controlling the Position of Elements
+- ### Positioning Schemes allow you to control the layout of a page, normal flow, relatie positioning, and absolute positioning
+  - #### Normal Flow 
+    - Every block-level element appears on a new line, causing each item to appear lower down the page than the previous one. 
+    - Even if you specify the width of the boxes, and there is spcae for two elements to sit side-by-side, they will not appear next to each other. 
+      - This is the default behavior
+  - #### Relative Positioning
+    - This moves an element from the position it would be in normal flow, shifting it to the top, right, botton, or left of where it would have been placed
+    - This does not affect the position of surrounding elements; they stay in the position they would be in in normal flow.
+  - #### Absolute Positioning
+    - This positions the element in relation to its containing element. 
+    - It is taken out of normal flow, meaning tht it does not affect the position of any surrounding elememts, (they ignore the space it would have taken up)
+    - Absolutely positioned elements move as users scroll up and down the page
+- ### Box offset will indicate where a box should be positioned and to tell the browser how far from the top or bottom and left or right it should be placed.
+  - #### Fixed Positioning
+    - this is a form of absolute positioning that positions the element in relation to the browser window, as opposed to the containing element
+    - they do not affect the position of surrounding elements and they do not move when the user scrolls up or down the page
+  - #### Floating Elememts
+    - floating an element allows you to take that element out of normal flow and position it to the far left or right of a containing box
+    - the floated element becomes a block-level element around which other content can flow
+  - #### WHen you move any element from normal flow, boxes can overlap. The z-index property allows you to control which box appears on top.
+
