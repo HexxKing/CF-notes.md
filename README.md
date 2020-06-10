@@ -11,7 +11,7 @@
 - [JS Object Literals; The DOM](class-06.md)
 - [HTML Tables; JS Constructor Functions](class-07.md)
 - [More CSS Layout]()
-- [Forms and Events]()
+- [Forms and Events](class-08.md)
 - [JS Debugging]()
 - [Assorted Topics]()
 - [Docs for the HTML \<canvas> Element & Chart.js]()
