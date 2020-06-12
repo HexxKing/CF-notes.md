@@ -12,7 +12,7 @@
 - [HTML Tables; JS Constructor Functions](class-07.md)
 - [More CSS Layout](class-08.md)
 - [Forms and Events](class-09.md)
-- [JS Debugging]()
+- [JS Debugging](class-10.md)
 - [Assorted Topics]()
 - [Docs for the HTML \<canvas> Element & Chart.js]()
 - [Local Storage]()
