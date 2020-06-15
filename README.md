@@ -13,7 +13,7 @@
 - [More CSS Layout](class-08.md)
 - [Forms and Events](class-09.md)
 - [JS Debugging](class-10.md)
-- [Assorted Topics]()
+- [Assorted Topics](class-11.md)
 - [Docs for the HTML \<canvas> Element & Chart.js]()
 - [Local Storage]()
 - [CSS Transforms, Transitions, and Animations]()
