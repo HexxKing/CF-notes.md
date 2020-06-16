@@ -14,7 +14,7 @@
 - [Forms and Events](class-09.md)
 - [JS Debugging](class-10.md)
 - [Assorted Topics](class-11.md)
-- [Docs for the HTML \<canvas> Element & Chart.js]()
+- [Docs for the HTML \<canvas> Element & Chart.js](class-12.md)
 - [Local Storage]()
 - [CSS Transforms, Transitions, and Animations]()
 
