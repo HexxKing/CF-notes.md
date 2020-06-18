@@ -1,0 +1,51 @@
+# [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)
+- analyzing and improving individual workers ­— a practice known as ‘‘employee performance optimization’’ — isn’t enough.
+- studies show that groups tend to innovate faster, see mistakes more quickly and find better solutions to problems.
+- people working in teams tend to achieve better results and report higher job satisfaction. 
+- Google’s People Operations department has scrutinized everything from how frequently particular people eat together (the most productive employees tend to build larger networks by rotating dining companions) to which traits the best managers share (unsurprisingly, good communication and avoiding micromanaging is critical; more shocking, this was news to many Google managers).
+- No matter how researchers arranged the data, though, it was almost impossible to find patterns — or any evidence that the composition of a team made any difference. 
+  - ‘‘We looked at 180 teams from all over the company,’’ Dubey said. ‘‘We had lots of data, but there was nothing showing that a mix of specific personality types or skills or backgrounds made any difference. The ‘who’ part of the equation didn’t seem to matter.’’
+- Group Norms are the traditions, behavioral standards and unwritten rules that govern how we function when we gather
+  - Norms can be unspoken or openly acknowledged, but their influence is often profound.
+- After looking at over a hundred groups for more than a year, Project Aristotle researchers concluded that understanding and influencing group norms were the keys to improving Google’s teams. 
+  - Google’s research had identified dozens of behaviors that seemed important, except that sometimes the norms of one effective team contrasted sharply with those of another equally successful group. 
+-  the researchers wanted to know if there is a collective I. Q. that emerges within a team that is distinct from the smarts of any single member.
+- What interested the researchers most, however, was that teams that did well on one assignment usually did well on all the others. 
+  - Conversely, teams that failed at one thing seemed to fail at everything. 
+  - The researchers eventually concluded that what distinguished the ‘‘good’’ teams from the dysfunctional groups was how teammates treated one another. 
+  - The right norms, in other words, could raise a group’s collective intelligence, whereas the wrong norms could hobble a team, even if, individually, all the members were exceptionally bright.
+- But what was confusing was that not all the good teams appeared to behave in the same ways. 
+  - ‘‘Some teams had a bunch of smart people who figured out how to break up work evenly,’’ said Anita Woolley, the study’s lead author. 
+  - ‘‘Other groups had pretty average members, but they came up with ways to take advantage of everyone’s relative strengths. 
+  - Some groups had one strong leader. Others were more fluid, and everyone took a leadership role.’’
+- on the good teams, members spoke in roughly the same proportion, a phenomenon the researchers referred to as ‘‘equality in distribution of conversational turn-taking.’’ 
+  - On some teams, everyone spoke during each task; on others, leadership shifted among teammates from assignment to assignment. 
+  - But in each case, by the end of the day, everyone had spoken roughly the same amount. ‘‘As long as everyone got a chance to talk, the team did well,’’ Woolley said. 
+  - ‘‘But if only one person or a small group spoke all the time, the collective intelligence declined.’’
+  - the good teams all had high ‘‘average social sensitivity’’ — a fancy way of saying they were skilled at intuiting how others felt based on their tone of voice, their expressions and other nonverbal cues. 
+  - One of the easiest ways to gauge social sensitivity is to show someone photos of people’s eyes and ask him or her to describe what the people are thinking or feeling — an exam known as the Reading the Mind in the Eyes test. 
+  - People on the more successful teams in Woolley’s experiment scored above average on the Reading the Mind in the Eyes test. 
+  - They seemed to know when someone was feeling upset or left out. 
+  - People on the ineffective teams, in contrast, scored below average. They seemed, as a group, to have less sensitivity toward their colleagues.
+- traits like ‘‘conversational turn-taking’’ and ‘‘average social sensitivity’’ as aspects of what’s known as psychological safety 
+- a group culture defined as a ‘‘shared belief held by members of a team that the team is safe for interpersonal risk-taking.’’ 
+  - Psychological safety is ‘‘a sense of confidence that the team will not embarrass, reject or punish someone for speaking up, It describes a team climate characterized by interpersonal trust and mutual respect in which people are comfortable being themselves.’’
+- Google’s data indicated that psychological safety, more than anything else, was critical to making a team work.
+- However, establishing psychological safety is, by its very nature, somewhat messy and difficult to implement. 
+  - You can tell people to take turns during a conversation and to listen to one another more. 
+  - You can instruct employees to be sensitive to how their colleagues feel and to notice when someone seems upset
+  - But the kinds of people who work at Google are often the ones who became software engineers because they wanted to avoid talking about feelings in the first place.
+- Google had to find a way to make communication and empathy — the building blocks of forging real connections — into an algorithm they could easily scale.
+- The behaviors that create psychological safety — conversational turn-taking and empathy — are part of the same unwritten rules we often turn to, as individuals, when we need to establish a bond. And those human bonds matter as much at work as anywhere else. In fact, they sometimes matter more.
+- We must be able to talk about what is messy or sad, to have hard conversations with colleagues who are driving us crazy. 
+- We want to know that work is more than just labor.
+- Project Aristotle has encouraged emotional conversations and discussions of norms among people who might otherwise be uncomfortable talking about how they feel.
+- encourages the group to think about the way work and life mesh. 
+  - Part of that, he says, is recognizing how fulfilling work can be
+- In the best teams, members listen to one another and show sensitivity to feelings and needs.
+- In fact, in some ways, the ‘‘employee performance optimization’’ movement has given us a method for talking about our insecurities, fears and aspirations in more constructive ways. 
+  - It also has given us the tools to quickly teach lessons that once took managers decades to absorb. 
+  - Google, in other words, in its race to build the perfect team, has perhaps unintentionally demonstrated the usefulness of imperfection and done what Silicon Valley does best: figure out how to create psychological safety faster, better and in more productive ways.
+- Project Aristotle is a reminder that when companies try to optimize everything, it’s sometimes easy to forget that success is often built on experiences — like emotional interactions and complicated conversations and discussions of who we want to be and how our teammates make us feel — that can’t really be optimized. 
+
+  

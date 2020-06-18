@@ -17,4 +17,5 @@
 - [Docs for the HTML \<canvas> Element & Chart.js](class-12.md)
 - [Local Storage]()
 - [CSS Transforms, Transitions, and Animations]()
+- [What Google Learned About Teams](class-14b)
 
