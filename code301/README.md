@@ -4,5 +4,4 @@
 
 ## Table Of Contents
 
-#### [Read: 01 - SMACSS and Responsive Web Design
-](class-01.md)
+#### [Read: 01 - SMACSS and Responsive Web Design](class-01.md)
