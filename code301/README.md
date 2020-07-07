@@ -4,4 +4,6 @@
 
 ## Table Of Contents
 
-#### [Read: 01 - SMACSS and Responsive Web Design](class-01.md)
+- [Read: 01 - SMACSS and Responsive Web Design](class-01.md)
+- [Read: 02 - jQuery, Events, and The DOM](class-02.md)
+
