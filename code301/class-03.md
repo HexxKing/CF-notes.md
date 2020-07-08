@@ -53,14 +53,29 @@
 - ***align-iems*** - This defines the default behavior for how flex items are laid out along the cross axis on the current line. 
 - The safe and unsafe modifier keywords can be used in conjunction with all the rest of these keywords (although note browser support), and deal with helping you prevent aligning elements such that the content becomes inaccessible.
 ![flexbox img](img/flexbox-align-items.png)
-  - **stretch (default):** stretch to fill the container (still respect min-width/max-width)
-  - **flex-start / start / self-start:** items are placed at the start of the cross axis. The difference between these is subtle, and is about respecting the flex-direction rules or the writing-mode rules.
-  - **flex-end / end / self-end:** items are placed at the end of the cross axis. The difference again is subtle and is about respecting flex-direction rules vs. writing-mode rules.
-  - **center:** items are centered in the cross-axis
-  - **baseline:** items are aligned such as their baselines align
 - ***align-content*** - This aligns a flex container’s lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
 > Note: this property has no effect when there is only one line of flex items.
+![flexbox img](img/flexbox-align-content.png)
+  - **flex-start / start:** items packed to the start of the container. The (more supported) flex-start honors the flex-direction while start honors the writing-mode direction.
+  - **flex-end / end:** items packed to the end of the container. The (more support) flex-end honors the flex-direction while end honors the writing-mode direction.
+  - **center:** items centered in the container
+  - **space-between:** items evenly distributed; the first line is at the start of the container while the last one is at the end
+  - **space-around:** items evenly distributed with equal space around each line
+  - **space-evenly:** items are evenly distributed with equal space around them
+  - **stretch (default):** lines stretch to take up the remaining space
 
+#### Properties for the Children or flex items
+- ***order*** - By default, flex items are laid out in the source order. However, the order property controls the order in which they appear in the flex container.
+![flexbox img](img/flexbox-order.png)
+- ***flex-grow*** - This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.
+- If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children. If one of the children has a value of 2, the remaining space would take up twice as much space as the others (or it will try to, at least).
+![flexbox img](img/flexbox-flex-grow.png)
+- ***flex-shrink*** - This defines the ability for a flex item to shrink if necessary.
+- ***flex-basis*** - This defines the default size of an element before the remaining space is distributed. 
+  - The **auto** keyword means “look at my width or height property” (which was temporarily done by the main-size keyword until deprecated). 
+  - The **content** keyword means “size it based on the item’s content” – this keyword isn’t well supported yet, so it’s hard to test and harder to know what its brethren max-content, min-content, and fit-content do.
+- ***flex*** - This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. The default is 0 1 auto, but if you set it with a single number value, it’s like 1 0.
+  - ***BEST PRACTICE*** It is recommended that you use this shorthand property rather than set the individual properties. The shorthand sets the other values intelligently.
 
 ## [Flexbox Froggy](https://flexboxfroggy.com/)
 - this is a tutorial
