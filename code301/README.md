@@ -9,3 +9,4 @@
 - [Read: 03 - Flexbox and Templating](class-03.md)
 - [Read: 04 - Responsive Web Design and Regular Expressions](class-04.md)
 - [Read: 05 - Heroku Deployment](class-05.md)
+- [Read: 06 - Node, Express, and APIs](class-06.md)
