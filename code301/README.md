@@ -11,3 +11,4 @@
 - [Read: 05 - Heroku Deployment](class-05.md)
 - [Read: 06 - Node, Express, and APIs](class-06.md)
 - [Read: 07 - APIs continued](class-07.md)
+- [Read: 08 - SQL](class-08.md)
