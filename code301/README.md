@@ -13,3 +13,4 @@
 - [Read: 07 - APIs continued](class-07.md)
 - [Read: 08 - SQL](class-08.md)
 - [Read: 09 - Refactoring](class-09.md)
+- [Read: 10 - The Call Stack and Debugging](class-10.md)

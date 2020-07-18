@@ -67,5 +67,5 @@
 - The idea of reduce is to receive a function and a collection, and return a value created by combining the items.
 - Using reduce, we can build a function to handle the amount sum and pass it as an argument to the reduce function.
 
-## [Refactoring Javascript for Readability}(https://dev.to/healeycodes/refactoring-javascript-for-performance-and-readability-with-examples-1hec)
+## [Refactoring Javascript for Readability](https://dev.to/healeycodes/refactoring-javascript-for-performance-and-readability-with-examples-1hec)
 - these are examples of different ways to refactor code using real world coding senarios
