@@ -16,3 +16,4 @@
 - [Read: 10 - The Call Stack and Debugging](class-10.md)
 - [Read: 11 - EJS](class-11.md)
 - [Read: 12 - Components](class-12.md)
+- [Read: 13 - Update/Delete](class-13.md)
