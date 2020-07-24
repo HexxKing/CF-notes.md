@@ -17,3 +17,4 @@
 - [Read: 11 - EJS](class-11.md)
 - [Read: 12 - Components](class-12.md)
 - [Read: 13 - Update/Delete](class-13.md)
+- [Read: 15 - Diversity and Inclusion](class-15.md)
