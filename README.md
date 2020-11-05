@@ -3,9 +3,9 @@
 
 ## [Code 102 - Intro to Software Development](code102)
 
-## [Code 201 - Foundations of Software Development](201-notes.md)
+## [Code 201 - Foundations of Software Development](code201/201-notes.md)
 
-## [Code 301 - Intermediate Software Development](code301)
+## [Code 301 - Intermediate Software Development](code301/README.md)
 
-## [Code 401 - Advanced Software Development](code401)
+## [Code 401 - Advanced Software Development](code401/README.md)
 
