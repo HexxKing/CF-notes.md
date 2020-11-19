@@ -22,5 +22,5 @@ put in all kinds of objects in lists.
 >
 > You can obtain the same thing using list comprehension.
 
-- 
+
 
