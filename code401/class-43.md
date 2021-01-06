@@ -1,0 +1,57 @@
+# [NextJs](https://nextjs.org/learn/basics/create-nextjs-app)
+- Through Assets, Metadata, and CSS section.
+- Next.js has the best-in-class "Developer Experience" and many built-in features; a sample of them are:
+  - An intuitive page-based routing system (with support for dynamic routes)
+  - Pre-rendering, both static generation (SSG) and server-side rendering (SSR) are supported on a per-page basis
+  - Automatic code splitting for faster page loads
+  - Client-side routing with optimized prefetching
+  - Built-in CSS and Sass support, and support for any CSS-in-JS library
+  - Development environment with Fast Refresh support
+  - API routes to build API endpoints with Serverless Functions
+  - Fully extendable
+- To create a Next.js app, open your terminal, cd into the directory you’d like to create the app in, and run:
+  - `npx create-next-app nextjs-blog --use-npm --example "https://github.com/url"`
+- `cd` into it
+- Then, run:
+  - `npm run dev`
+- Open http://localhost:3000 from your browser.
+- Now you can edit the `index.js` file, save it and check your server
+- When exporting functions to other modules use:
+  - `export default function someFunction() {`
+  - `import someFunction from './differentModule'`
+- When linking between pages on websites, you use the `<a>` HTML tag.
+  - In Next.js, you use the Link Component from next/link to wrap the `<a>` tag. `<Link>` allows you to do client-side navigation to a different page in the application.
+  - the Link component is similar to using <a> tags, but instead of <a href="…">, you use <Link href="…"> and put an <a> tag inside.
+  - The Link component enables client-side navigation between two pages in the same Next.js app.
+  - Client-side navigation means that the page transition happens using JavaScript, which is faster than the default navigation done by the browser.
+- Here’s a simple way you can verify it:
+  - Use the browser’s developer tools to change the background CSS property of <html> to yellow.
+  - Click on the links to go back and forth between the two pages.
+  - You’ll see that the yellow background persists between page transitions.
+  - This shows that the browser does not load the full page and client-side navigation is working.
+- Next.js does code splitting automatically, so each page only loads what’s necessary for that page. That means when the homepage is rendered, the code for other pages is not served initially.
+  - This ensures that the homepage loads quickly even if you have hundreds of pages.
+  - Only loading the code for the page you request also means that pages become isolated. If a certain page throws an error, the rest of the application would still work.
+  - Furthermore, in a production build of Next.js, whenever Link components appear in the browser’s viewport, Next.js automatically prefetches the code for the linked page in the background. By the time you click the link, the code for the destination page will already be loaded in the background, and the page transition will be near-instant!
+- Next.js has built-in support for CSS and Sass.
+- Next.js can serve static files, like images, under the top-level public directory. Files inside public can be referenced from the root of the application similar to pages.
+- You can import the Head component from the next/head module.
+- `<Head>` is a React Component that is built into Next.js. It allows you to modify the `<head>` of a page.
+- a library called styled-jsx is a “CSS-in-JS” library — it lets you write CSS within a React component, and the CSS styles will be scoped (other components won’t be affected).
+- Next.js has built-in support for styled-jsx, but you can also use other popular CSS-in-JS libraries such as styled-components or emotion.
+- add some styles to the `Layout` component. To do so, we’ll use CSS Modules, which lets you import CSS files in a React component.
+-  CSS Modules automatically generate unique class names. As long as you use CSS Modules, you don’t have to worry about class name collisions.
+-  Next.js’s code splitting feature works on CSS Modules as well. It ensures the minimal amount of CSS is loaded for each page. This results in smaller bundle sizes. CSS Modules are extracted from the JavaScript bundles at build time and generate .css files that are loaded automatically by Next.js.
+- CSS Modules are useful for component-level styles. But if you want some CSS to be loaded by every page, Next.js has support for that as well.
+- You need to restart the development server when you add CSS modules
+- `classnames` is a simple library that lets you toggle class names easily. You can install it using `npm install classnames`
+- Suppose that you want to create an Alert component which accepts type, which can be 'success' or 'error'. If it’s 'success', you want the text color to be green. If it’s 'error', you want the text color to be red.
+- Out of the box, with no configuration, Next.js compiles CSS using PostCSS. To customize PostCSS config, you can create a top-level file called postcss.config.js. This is useful if you’re using libraries like Tailwind CSS.
+  - `npm install tailwindcss postcss-preset-env postcss-flexbugs-fixes`
+- We also recommend removing unused CSS by specifying the `purge` option on tailwind.config.js
+- Out of the box, Next.js allows you to import Sass using both the .scss and .sass extensions. You can use component-level Sass via CSS Modules and the .module.scss or .module.sass extension. Before you can use Next.js' built-in Sass support, be sure to install sass:
+  - `npm install sass`
+
+# Additional Resources
+- [Why I’m using Next.js in 2020 - Video](https://www.youtube.com/watch?v=rtgbaKBhdkk&ab_channel=LeeRobinson)
+- [Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples)
