@@ -1,4 +1,4 @@
-# [Graphs] (https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html)
+# [Graphs](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/graphs.html)
 - A graph is a non-linear data structure that can be looked at as a collection of vertices (or nodes) potentially connected by line segments named edges.
 - Vertex - A vertex, also called a “node”, is a data object that can have zero or more adjacent vertices.
 - Edge - An edge is a connection between two nodes.
