@@ -7,7 +7,7 @@ Enriching Your Python Classes With Dunder (Magic, Special) Methods
   - `__init__`
 - Object representation
   - `__str__` : The “informal” or nicely printable string representation of an object. This is for the enduser.
-  - `__repr__` : The “official” string representation of an object. This is how you would make an object of the class. The goal of __repr__ is to be unambiguous.
+  - `__repr__` : The “official” string representation of an object. This is how you would make an object of the class. The goal of `__repr__` is to be unambiguous.
 - Enable iteration
   - `__len__`
   - `__getitem__`
@@ -19,7 +19,6 @@ Enriching Your Python Classes With Dunder (Magic, Special) Methods
   - `__add__`
 - Callable Python Objects
   - `__call__`
-- Method invocation
 - Context manager support (*with* statement)
   - `__enter__`
   - `__exit__`
@@ -28,7 +27,7 @@ Enriching Your Python Classes With Dunder (Magic, Special) Methods
 # [Iterators](https://dbader.org/blog/python-iterators)
 - Objects that support the `__iter__` and `__next__` dunder methods automatically work with for-in loops.
 - Iterators provide a sequence interface to Python objects that’s memory efficient and considered Pythonic. Behold the beauty of the for-in loop!
-- To support iteration an object needs to implement the iterator protocol by providing the __iter__ and __next__ dunder methods.
+- To support iteration an object needs to implement the iterator protocol by providing the `__iter__` and `__next__` dunder methods.
 - Class-based iterators are only one way to write iterable objects in Python. Also consider generators and generator expressions.
 
 
